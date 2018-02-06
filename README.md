@@ -259,5 +259,5 @@ Something different with other programming languages is the need of explicity as
 
 When doing math operations you may need to include the **cmath** library, it contains a number of useful functions.
 
-[Additional details] (http://www.cplusplus.com/doc/tutorial/operators/)
+[Additional details](http://www.cplusplus.com/doc/tutorial/operators/)
 
