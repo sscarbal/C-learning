@@ -1,7 +1,9 @@
 # C-learning
 Notes and Reviews from C++ learning -> C++ from programmer Udacity
 
-## Adding comments
+## Basics
+
+### Adding comments
 
 Comments can be added in **two ways**
 1. As a comment **block**
@@ -19,7 +21,7 @@ Adding asterisks for each line of the comment block is not necessary, but it dra
 
 A comment can be added as a single line by preceding the comment with two slash marks **( // )**.
 
-## Style Guides
+### Style Guides
 
 There are a number of style guides available, **the best one is the one used by the people who are paying you.**
 
@@ -29,7 +31,7 @@ A straightforward style guide is:
 For a more detailed guideline:
                [Google C++ Style Guideline](https://google.github.io/styleguide/cppguide.html)
 
-## Using Namespace
+### Using Namespace
 
 ```c++
 using namespace std;
@@ -41,7 +43,7 @@ This tells the compiler to assume we are using the standard library, so **we don
 
 **Some controversy about using namespace:** When the commands are not explicitly defined, there is a possibility that when your code is added to a large project, your code might reference a command from a different library.
 
-## Define Constants
+### Define Constants
 
 In C++ we can define a variable as a constant. Meaning, its value does not change for the life of the program.
  
@@ -52,7 +54,7 @@ const int weightGoal = 100;
 
 With this statement we have set the integer weightGoal to 100. It cannot be changed during the program. If you want to change the value of weightGoal, you will have to edit the source code and recompile it.
 
-## Enumerated Constats
+### Enumerated Constats
 
 C++ also allows for enumerated constants. This means the programmer can create a new variable type and then assign a finite number of values to it. Here is the form of the enum keyword:
 
@@ -66,7 +68,7 @@ enum type_name {
 } object_names;
 ```
 
-## Format output
+### Format output
 
 To format data we can use escape sequences. These do not require any additional libraries.
 
@@ -100,7 +102,7 @@ The text with tabs
 Ints    Floats    Doubles
 ```
 
-## File IO
+### File IO
 
 File IO steps:
 - Include the <fstream> library 
@@ -150,7 +152,7 @@ int main () {
 }
 ```
 
-##Header Files
+### Header Files
 
 As we have seen we can include additional libraries in C++, we can also include **our own libraries.**
 
@@ -167,7 +169,7 @@ Add a statement to include main.hpp
 
 Then we create a header file. We moved the include and the using statements from the main.ccp and put them in the header file.
 
-## User Input
+### User Input
 
 std::cin for reading from the console.
 
@@ -181,7 +183,7 @@ C++ has a function called getline.
 
 [Information on the getline command](http://www.cplusplus.com/reference/string/string/getline/)
 
-## To convert the string variable to a numeric variable.
+### To convert the string variable to a numeric variable.
 
 Steps for using Stringstream:
 
