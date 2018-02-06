@@ -243,10 +243,13 @@ Secondly, large projects will usually contain multiple linked binaries, each of 
 - [Using C++ in a Unix Environment](https://www.cs.drexel.edu/~mcs171/Sp07/extras/g++/index.html)
 - [Using C++ in a Windows Environment](https://arachnoid.com/cpptutor/setup_windows.html)
 
-#### Let's do a step-by-step example of compiling from the terminal. 
+#### In summary to compile in a terminal:
+1. Open a terminal window
+2. Change the working directory to the directory of the program.
+3. To compile the program: g++ filename.cpp -o executableName.
+4. To execute the program: ./executableName.
 
-This is the easiest, most direct method.
-- Step 1: Open a terminal window
-- Step 2: Make sure you have the C++ libraries loaded on your machine.
-- Step 3: Go to the directory where you saved your program.
-- Step 4: Compile the program.
+**Common mistakes when executing in the terminal:**
+- Make sure there are no spaces in filenames
+- Make sure all the files you need are in the working directory (including header files), use 'ls' to check
+
