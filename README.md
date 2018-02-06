@@ -253,3 +253,11 @@ Secondly, large projects will usually contain multiple linked binaries, each of 
 - Make sure there are no spaces in filenames
 - Make sure all the files you need are in the working directory (including header files), use 'ls' to check
 
+## 3. Arithmetic Operations
+
+Something different with other programming languages is the need of explicity assing of data types to variables. This low level aspect of C and C++ is what makes them so efficient. 
+
+When doing math operations you may need to include the **cmath** library, it contains a number of useful functions.
+
+[Additional details] (http://www.cplusplus.com/doc/tutorial/operators/)
+
