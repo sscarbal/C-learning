@@ -265,7 +265,7 @@ When doing math operations you may need to include the **cmath** library, it con
 
 [Additional details](http://www.cplusplus.com/doc/tutorial/operators/)
 
-#### postfix and prefix operators. 
+#### Postfix and prefix operators. 
 Incrementing
 - prefix: ++a
 - postfix: a++
