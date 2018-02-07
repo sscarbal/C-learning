@@ -204,6 +204,10 @@ Information about string stream can be found at: [StringStream tutorial](http://
 
 ## 2. Compilation and execution
 
+### IDE for C++
+
+[**CodeBlocks for C/C++ Programming** - How To Install and Get Started](https://www.ntu.edu.sg/home/ehchua/programming/howto/CodeBlocks_HowTo.html)
+
 ### Compiling
 
 Compiling is the process of translating the code that you've written into machine code that processors understand. Every program, regardless of the source language, needs to be compiled in order to execute. This is true even for scripting languages like Python or JavaScript. In these cases, the interpreter (or a similar system) is responsible for compiling code on the fly in a process known as just-in-time compiling. To the user, compilation and execution of scripting languages are effectively a single action. (Of course, the actual process of compiling code at run-time is much more complicated than what was described here in one sentence. It's also very much dependent on the exact language and runtime in question.)
@@ -261,3 +265,15 @@ When doing math operations you may need to include the **cmath** library, it con
 
 [Additional details](http://www.cplusplus.com/doc/tutorial/operators/)
 
+#### postfix and prefix operators. 
+Incrementing
+- prefix: ++a
+- postfix: a++
+
+Decrementing
+- prefix: --a
+- postfix: a--
+
+Prefix operators increment the value of the variable, then return the reference to the variable. 
+
+Postfix operators create a copy of the variable and increments the value of the variable. Then it returns a copy from BEFORE the increment.
