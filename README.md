@@ -277,3 +277,16 @@ Decrementing
 Prefix operators increment the value of the variable, then return the reference to the variable. 
 
 Postfix operators create a copy of the variable and increments the value of the variable. Then it returns a copy from BEFORE the increment.
+
+## 4. Control Flow
+
+### Relational Operators
+
+|Operator |Example |True condition |
+|---: |---: |---: |
+|== |A == B |A equals B|
+|!= |A != B |A is not equal to B | 
+|> |A > B |A is greater than B |
+|< |A < B |A is less than B |
+|>= |A >= B |A is greater than or equal to B |
+|<= |A <= B |A is less than or equal to B |
