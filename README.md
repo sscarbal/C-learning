@@ -283,7 +283,7 @@ Postfix operators create a copy of the variable and increments the value of the 
 ### Relational Operators
 
 |Operator |Example |True condition |
-|---: |---: |---: |
+|:--- |:--- |:--- |
 |== |A == B |A equals B|
 |!= |A != B |A is not equal to B | 
 |> |A > B |A is greater than B |
