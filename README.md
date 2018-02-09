@@ -384,3 +384,14 @@ while(1)
      std::cout<<"This while loop will run forever\n";
 }
 ```
+### Exiting loops
+
+To exit a loop before it completes its normal sequence, we need to use control statements.
+
+The two most commonly used are:
+
+- **break:** The break statement will end the loop and begin executing the first statement that comes AFTER the end of the loop.
+
+- **continue:** The continue statement will force the next iteration to be executed.
+
+
