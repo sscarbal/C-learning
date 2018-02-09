@@ -290,3 +290,97 @@ Postfix operators create a copy of the variable and increments the value of the 
 |< |A < B |A is less than B |
 |>= |A >= B |A is greater than or equal to B |
 |<= |A <= B |A is less than or equal to B |
+
+### Logical Operators
+ 
+| Operator | Behavior|
+| :---: | :---: |
+| `&&` | Logical AND |
+| `||` | Logical OR |
+| `!` | Logical NOT |
+
+### if-else Statements
+
+```c++
+if(boolean expression)
+{
+     //statements to execute if the boolean expression is true
+}
+else if(boolena expression)
+{
+     //statements to execute if the boolean expression is false
+}
+...
+else
+}
+```
+
+### switch Statements
+
+```c++
+switch(expression)
+{
+     case constant-expression : statements;
+                               break; (this is optional);
+     case constant-expression : statements;
+                               break; (this is optional);
+     ...
+
+     default : //optional
+        statements;
+}
+```
+### for loops
+
+for loops in C++ can have the two following form:
+
+```c++
+for ( declaration : range ) statement;
+
+for (initialization; condition; increase) statement;
+```
+### while loops
+
+C++ has two forms of the while loop:
+- while loops
+- do .. while loops
+
+**C++ while loops syntax is:**
+```c++
+while(condition)
+{
+     statements;
+}
+```
+If the condition is true, the statements within the curly brackets are executed. If the condition is false, the statements are not executed.
+
+
+**C++ do ... while loops have the following syntax:**
+```c++
+do
+{
+     statements;
+}while(condition );
+```
+The statements are executed the first time through the loop. Then the condition is checked. 
+
+### Infinite loop
+
+Sometimes it is desired to create an infinite loop. For example, in embedded systems a infinite loop is often used for the main task.
+
+**To create an infinite loop using a for loop:**
+```c++
+for( ; ;)
+{
+     std::cout<<"This for loop will run forever\n";
+}
+```
+
+**To create an infinite loop using a while loop:**
+
+```c++
+while(1)
+{
+     std::cout<<"This while loop will run forever\n";
+}
+```
