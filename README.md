@@ -296,7 +296,7 @@ Postfix operators create a copy of the variable and increments the value of the 
 | Operator | Behavior|
 | :---: | :---: |
 | `&&` | Logical AND |
-| `||` | Logical OR |
+| `\|\|` | Logical OR |
 | `!` | Logical NOT |
 
 ### if-else Statements
