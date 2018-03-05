@@ -428,6 +428,35 @@ std::cout << "pointerToA stores " << pointerToA << '\n';
 std::cout << "pointerToA points to " << * pointerToA << '\n';
 ```
 
+## Arrays
+
+In C++ vectors are more powerful /versatile than arrays.
+
+C++ arrays can be declared as:
+```c++
+variableType arrayName [ ] = {variables to be stored in the array};
+```
+or as:
+```c++
+variableType arrayName[array size]
+```
+
+We can access the calues in an array by identifuing the specific index:
+```C++
+variableType arrayName[ index number ]
+```
+
+**Multi-Dimensional Arrays**
+
+C++ supports multidimensional arrays. C++ arrays can be of any dimension: 1 to 'n'.
+
+They are initialized with the format:
+```C++
+typeOfVariable arrayName[size of dim.1][size of dim. 2] ...[size of dim. n];
+```
+
+
+
 
 
 
