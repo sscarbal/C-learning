@@ -460,6 +460,41 @@ typeOfVariable arrayName[size of dim.1][size of dim. 2] ...[size of dim. n];
 
 ## Functions
 
+### Functions that alter parameters
+```C++
+/*What is wrong with this program?
+It compiles without error, but it has a major error in it. 
+*/
+
+#include<iostream>
+
+void increment(int input);
+int main()
+{
+    int a = 34;
+    std::cout<<"Before the function call a = "<<a<<"\n";
+    increment(a);
+    std::cout<<"After the function call a = "<<a<<"\n";
+    return 0;
+}
+void increment(int input)
+{
+    input++;
+    std::cout<<"In the function call a = "<<input<<"\n";
+}
+```
+Result:
+Before the function call a = 34
+In the function call a = 35
+After the function call a = 34 --> The change in the function does not effect 
+
+C++ respects variable scope. Changes to a variable that are made in a function will not effect the variable in the main part of the program. 
+
+**There are two methods to rectify this situation:**
+- Return the altered variable
+- Pass the variable as a reference
+
+
 ### Pass Variable by reference
 
 Passing by reference refers to passing the address of the variable rather than the variable. Then when we make a change in a function, we are changing the value at the address, not the variable. Once the value is changed at its address, any access to that address will retrieve the new value. 
@@ -493,11 +528,10 @@ void increment(int &input)//Note the addition of '&'
 ```
 
 Result:
-```
 Before the function call a = 34
 In the function call a = 35
 After the function call a = 35
-```
+
 
 
 
